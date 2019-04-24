@@ -1,0 +1,5 @@
+Footer Component
+
+```js
+<Footer />
+```
