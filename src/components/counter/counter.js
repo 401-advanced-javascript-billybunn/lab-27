@@ -33,7 +33,7 @@ class Counter extends React.Component {
         <a href="#" className="down-clicker" onClick={this.handleDown}>
           -
         </a>
-        <span className={classes}>{this.state.count}</span>
+        <span className={classes}>{Math.abs(this.state.count)}</span>
         <a href="#" className="up-clicker" onClick={this.handleUp}>
           +
         </a>
